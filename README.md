@@ -24,6 +24,7 @@ b) Create some dummy transformations for every column:
 - Multiply all numeric columns * 2.
 - Delete the letter "e" from all str columns.
 - Set all bool variables to True.
+
 Create 3 extra numeric columns:
 - Mean of purchases.
 - Median of age.
