@@ -17,7 +17,7 @@ SQL use ACID rules in order to mantain clean and integral data, but, when using 
 So, these tools can help us a lot to confirm that our pipelines are working correectly. These kind of tests should be included before any ingestion of data on production databases.
 
 ### Explanation of this excercise
-a) Read a dataframe and extract only some columns:
+a) Read data and extract only some columns:
 - str, int, double and bool values were selected.
 
 b) Create some dummy transformations for every column:
