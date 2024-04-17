@@ -32,3 +32,6 @@ Create 3 extra numeric columns:
 c) Create a function that pipeline these past transformations and make an assertion.
 - For this, is necesary to create a result or expected dataframe.
 - Tip: only generate assertions on sample, otherwise, its impossible to generate expected dataframe results for every pipeline you want to unit test.
+
+### Extra
+Data were stored in a local PostgreSQL database and then read it with Python.
