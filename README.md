@@ -35,4 +35,7 @@ c) Create a function that pipeline these past transformations and make an assert
 - Tip: only generate assertions on sample, otherwise, its impossible to generate expected dataframe results for every pipeline you want to unit test.
 
 ### Extra
-Data were stored in a local PostgreSQL database and then read it with Python.
+- Data were stored in a local PostgreSQL database and then read it with Python.
+- Notebooks were used to create the tests.
+- "assertion_execs" is the code ready to execute and test.
+
