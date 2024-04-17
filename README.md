@@ -2,7 +2,7 @@
 This repository is created to expose a method to ensure consistency on data:
   - Data consistency is the accuracy, completeness, and correctness of data stored in a database. The same data across all related systems, applications, and databases is when we say that data is consistent. Inconsistent data can lead to incorrect analysis, decision-making, and outcomes.
 
-SQL use ACID rules in order to mantain clean and integral data, but, when using Pandas or PySpark or Polars, how can we imitate those great properties that SQL have? Well, we have these functions per library:
+SQL use ACID rules in order to mantain clean and integral data, but, when using Pandas or PySpark or Polars, how can we imitate those great properties that SQL have? Well, look at these functions:
 - Pandas: assert_frame_equal() (https://pandas.pydata.org/docs/reference/api/pandas.testing.assert_frame_equal.html#pandas.testing.assert_frame_equal)
 - Polars: assert_frame_equal() (https://docs.pola.rs/docs/python/version/0.18/reference/api/polars.testing.assert_frame_equal.html)
 - Spark version >=3.5.0 : assertDataFrameEqual() (https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.testing.assertDataFrameEqual.html)
